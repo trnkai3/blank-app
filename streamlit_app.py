@@ -1,6 +1,9 @@
 import streamlit as st
 
 st.title("🎈 My new app")
+
+st.header("Diva Test")
+
 name = st.text_input("Enter your name")
 
 studymethod = st.selectbox("Study method", ("Crammer", "Memory Box", "Pre-planner"))
